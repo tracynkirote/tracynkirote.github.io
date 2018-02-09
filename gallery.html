@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Gallery</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<style type="text/css">
+	.navbar.navbar-inverse
+	{
+		background-image: url(pictures/background.jpg.jpg);
+		height:100px;
+	}
+
+	.nav.navbar-nav{
+		float:right;
+		color:  #ff0066; }
+
+		.navbar-brand{
+			font-size:50px;
+		}
+		
+		.y{
+			width:100%;
+			height:290px;
+			float: right;
+			margin-bottom:18px;
+			margin-right:20px;
+
+		}
+		.col-md-3 img{
+			max-height: 400px;
+			filter: grayscale(100%);
+			transition: 1s;
+		}
+		.col-md-3 img:hover{
+			filter: grayscale(0);
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Gallery</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li ><a href="index.html">About Me</a></li>
+				<li ><a href="acheivement.html">Achievement</a></li>
+				<li class="active"><a href="#">Gallery</a></li>
+				<li ><a href="contactme.html">Contact Me</a></li>
+			</ul>
+			<form class="navbar-form navbar-left" action="/action_page.php">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+				</div>
+				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+			</form>
+		</div> 
+		<!-- end of nav bar -->
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-3 col-sm-12" class="fire" >
+					<img src="gallery/snapchat.jpg" class="y">
+				</div>
+				<div class="col-md-3 col-sm-12" class="fire" >
+					<img src="gallery/blowkiss.jpg" class="y">
+
+				</div>
+				<div class="col-md-3 col-sm-12" class="fire" >
+					<img src="gallery/mun.jpg" class="y">
+				</div>
+				<div class="col-md-3 col-sm-12" class="fire" >
+					<img src="gallery/photoshoot.jpg" class="y">
+
+
+				</div>	
+				
+			</div>
+
+
+
+		</body>
+		</html>
